@@ -11,5 +11,5 @@
 
 <h1>Desafio do <strong>Modulo 3</strong> do Curso de HTML5 e CSS3</h1>
 <p>
-  <a href="https://phcastello.github.io/CursoHTML-CSS/Modulo 3/desafio1/index.html" target"_blank">Desafio</a>
+  <a href="https://phcastello.github.io/CursoHTML-CSS/Modulo3/desafio1/index.html" target"_blank">Desafio</a>
 </p>
