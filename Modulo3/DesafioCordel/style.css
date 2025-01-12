@@ -51,13 +51,13 @@ header > p{
     font-size: clamp(1rem, 1.5vw, 3rem);
 }
 
-header > a{
+header a{
     color: white;
     text-decoration: none;
     font-weight: bolder;
 }
 
-header > a:hover{
+header a:hover{
     color: rgb(112, 112, 112);
 }
 
