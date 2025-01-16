@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+@font-face {
+    font-family: 'Chomsky';
+    src: url('assets/fontes/Chomsky.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    /*
+        Tipos de format()
+        - opentype(otf)
+        - truetype(ttf)
+        - embedded-opentype
+        - truetype-aat(Apple advanced typography)
+        - svg
+    */
+}
+
+/*
+Paleta de cores:
+#000807
+#fff3b0
+#e09f3e
+#9e2a2b
+#540b0e
+*/
+
+body{
+    background-color: #fff3b0;
+    margin: auto;
+    font-family: 'work Sans';
+    /*
+    Medidas absolutas:
+    cm, mm, in, px, pt, pc.
+
+    Medidas relativas:
+    em(relativo ao M de uma fonte), ex(relativo ao x de uma fonte), rem, vw, vh, %
+
+    16px geralmente é igual a 1em
+
+    w3c schools recomenda px e em.
+    */
+    font-size: 1em;
+}
+h1{
+    background-color: #e09f3e;
+    color: #00312b;
+    text-shadow: 1px 1px 2px #540b0d25;
+    text-align: center;
+    font-family: Chomsky, sans-serif;
+    font-size: 3em;
+    /*
+    font-family: "Kaushan Script";
+    font-weight: 3em;
+    font-style: normal;
+
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 3em;
+    font-style: italic;
+
+    shorthand font:
+    
+    - font-style -> font-weight -> font-size -> font-family
+    */
+}
+h2{
+    font: bold normal 2em 'Kaushan Script', serif;
+}
+h3{
+    color: #e09f3e;
+    font: normal normal 1.5em Arial, sans-serif;
+}
+
+
+p#github{
+    text-align: center;
+}
+
+a{
+    color: #540b0e;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px #3507096f;
+    cursor: pointer;
+}
+
+a:hover{
+    color: #280607;
+    text-decoration: underline;
+}

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Tabelas em HTML5</h1>
+    </header>
+    <main>
+        <!--
+        Hierarquia de tabelas simples:
+            table
+                |->table row
+                    |->table header
+                    |->table data
+
+        
+        -->
+        <h2>Tabelas pequenas</h2>
+        <table id="primeira">
+            <tr> <!--primeira linha (Table Row = tr)-->
+                <td>A1</td> <!--dados da tabela (Table Data = td)-->
+                <td>B1</td>
+                <td>C1</td>
+            </tr>
+            <tr>
+                <td>A2</td>
+                <td>B2</td>
+                <td>C2</td>
+            </tr>
+            <tr>
+                <td>A3</td>
+                <td>B3</td>
+                <td>C3</td>
+            </tr>
+            <tr>
+                <td>A4</td>
+                <td>B4</td>
+                <td>C4</td>
+            </tr>
+        </table>
+        <!--
+        Hierarquia de tabelas grandes:
+            table
+                |->caption
+                |->thead
+                |    |->tr
+                |    |->td
+                |    |->th 
+                |->tbody
+                |    |->tr
+                |    |->td
+                |    |->th 
+                |->tfoot
+                    |->tr
+                    |->td
+                    |->th 
+        -->
+        <h2>Tabelas Grandes</h2>
+        <table id="segunda">
+            <caption>População das Unidades Federativas</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Estado</th>
+                    <th scope="col" style="width: 100px;">População</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>São Paulo</td>
+                    <td>45 973 190</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td>21 322 692</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td>17 219 679</td>
+                </tr>
+                <tr>
+                    <td>Bahia</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Paraná</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Rio Grande do Sul</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Pernambuco</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Ceará</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Pará</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Santa Catarina</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Goias</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Maranhão</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Amazonas</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Paraíba</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Espirito Santo</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Mato Grosso</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Rio Grande do norte</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Piauí</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Alagoas</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Distrito Federal</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Mato Grosso do Sul</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Sergipe</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Rôndonia</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Tocantins</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Acre</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Amapá</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Roraima</td>
+                    <td></td>
+                </tr>
+                
+
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th scope="row">População total</th>
+                    <td><strong>212 583 720</strong></td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+    <footer>
+        <p>
+            Site criado por Pedro Castello, inspirado no site modelo criado por Gustavo Guanabara do curso em vídeo, no curso de HTML5 com CSS3.
+        </p>
+        <p>
+            Github:<a href="https://github.com/phcastello" target="_blank">phcastello</a>
+        </p>
+    </footer>
+    <script src="script.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <title>Formatação de Textos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Principais Formatações</h1>
+    <h2>Negrito/Destaque</h2>
+    <p>Nesta frase, temos um <b>termo em negrito</b> usando a tag b (não semântica)</p>
+    <p>Nesta frase, temos um <strong>termo em destaque</strong> usando a tag strong(semântica)</p>
+    <h2>Itálico/Ênfase</h2>
+    <p>Nesta frase, temos um <i>termo em itálico</i> usando a tag i (não semântica)</p>
+    <p>Nesta frase, temos um <em>termo em ênfase</em> usando a tag em(semântica)</p>
+    <h2>Texto marcado</h2>
+    <p>Podemos criar tambem um <mark>Texto marcado</mark> usando a tag mark</p>
+    <p>E no outro paragrafo, temos <mark>outro texto marcado</mark> no final</p>
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> nesse parágrafo</p>
+    <h2>Texto deletado</h2>
+    <p>Podemos marcar <del>um texto como excluido</del> para indicar que ele deve ser lido, mas não considerado</p>
+    <h2>Texto inserido</h2>
+    <p>Podemos marcar <ins>um texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois</p>
+    <p>Existe tambem o <u>sublinhado</u>, com a tag u (não semântica)</p>
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir coisas do tipo x<sup>20</sup>+3</p>
+    <h2>Texto subscrito</h2>
+    <p>para inserir coisas do tipo H<sub>2</sub>O</p>
+
+
+    <h1>Outras formatações</h1>
+    <h2>Código-fonte</h2>
+    <p>O comando <code>window.document.querySelector('teste');</code> é escrito em linguagem JavaScript.</p>
+    <p>Exemplo de codigo em C++:</p>
+    <pre>
+        <code>
+#include&lt;bits/stdc++.h&gt;
+
+std::cout << "Ola, Mundo!";
+        </code>
+    </pre>
+    <h2>Citações simples</h2>
+    <p>Como diria o pai de um amigo: <q>O computador é um burro muito rápido</q></p>
+    <h2>Citações Completas</h2>
+    <p>Segundo Jeff Noble, no seu livro HTML para leigos:</p>
+
+    <blockquote cite="">
+        A diferença entre elementos inline e um bloco de texto é importante.
+    </blockquote>   
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
+    <h2>Texto Invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p>
+
+    <h1>Trabalhando com Listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <ol type="1" > <!-- 1 , A, a, I, i-->
+        <li>Acordar</li>
+        <li>Ligar para o joao</li>
+        <li>Escovar os dentes</li>
+        <li>Tomar café</li>
+        <li>Ir para faculdade</li>
+        <li>Almoçar</li>
+        <li>Ir para o trabalho</li>
+        <li>Voltar pra casa</li>
+        <li>Jantar</li>
+        <li>Dormir</li>
+    </ol>
+    <h2>Listas Não Ordenadas</h2>
+    <ul> <!-- disk, circle, square-->
+        <li>Pão</li>
+        <li>leite</li>
+        <li>manteiga</li>
+        <li>Alface</li>
+        <li>tomate</li>
+        <li>Arroz</li>
+        <li>Feijao</li>
+    </ul>
+    <h2>Exemplos:</h2>
+    <h3>Minhas liguagens favoritas</h3>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>C++</li>
+            <li>Python</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a">
+            <li>JavaScript</li>
+            <li>C#</li>
+        </ol>
+    </ol>
+    <h3>Meus jogos Favoritos</h3>
+    <ol>
+        <li>PC:</li>
+        <ul type="square">
+            <li>Outer Wilds</li>
+            <ul type="circle">
+                <li>Aproximadamente 80hrs de jogo</li>
+            </ul>
+            <li>Sekiro</li>
+            <li>Dark Souls 1: Remastered</li>
+            <li>Elden Ring</li>
+        </ul>
+        <li>PlayStation</li>
+        <ul type="square">
+            <li>Shadow of the colossus</li>
+        </ul>
+    </ol>
+    <h2>Lista de Definições</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do design de um site.</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a criação da interatividade de um site</dd>
+    </dl>
+    <script src="script.js"></script> <!--Te amu lindo-->
+</body>
+</html>
