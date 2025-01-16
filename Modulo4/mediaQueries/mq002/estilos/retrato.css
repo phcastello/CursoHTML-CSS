@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+/* Estilos para retrato (portrait) */
+
+body{
+    background-image: url('../../assets/imagens/cev-portrait.jpg');
+    background-position: center bottom;
+}
+
+h1::after{
+    content: " Retrato!";
+}

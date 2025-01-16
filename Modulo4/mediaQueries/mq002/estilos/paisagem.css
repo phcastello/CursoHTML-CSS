@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+/* Estilos para paisagem (landscape) */
+
+body{
+    background-image: url('../../assets/imagens/cev-landscape.jpg');
+    background-position: left bottom;
+}
+
+h1::after{
+    content: " Paisagem!";
+}

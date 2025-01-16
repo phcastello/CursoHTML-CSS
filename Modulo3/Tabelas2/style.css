@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+:root{
+    --fontePadrao: Arial, Helvetica, sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: var(--fontePadrao);
+    text-align: center;
+}
+
+
+table{
+    margin: 50px auto 50px auto;
+    border-collapse: collapse;
+}
+
+th,td{
+    border: 1px solid black;
+    padding: 10px 50px 10px 50px;
+}
+
+thead{
+    background-color: #c1c1c1;
+}
+
+thead > tr > th{
+    position: sticky;
+    top: -1px;
+    background-color: #c1c1c1;
+}
+
+.medias td{
+    background-color: #c1c1c1;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+}
+
+col:nth-child(2n){
+    background-color: lightgreen;
+}

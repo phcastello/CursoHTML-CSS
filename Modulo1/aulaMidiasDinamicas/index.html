@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <title>Imagens Dinâmicas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Mídias Dinâmicas</h1>
+        
+    </header>
+    <section>
+        <h1>Imagens Dinâmicas</h1>
+        <p>Abra o site em diferentes dispositivos ou diminua o tamanho da janela</p>
+        <div>
+            <picture>
+                <source media="(min-width: 1030px)" srcset="assets/images/Imagem-g.png" type="image/png">
+                <source media="(min-width: 730px)" srcset="assets/images/Imagem-m.png" type="image/png">
+                <img src="assets/images/Imagem-p.png" alt="imagem Pequena">
+            </picture>
+        </div>
+        <div>
+            <h1>Reproduzindo áudio</h1>
+            <audio controls preload="auto"> <!--preload tem os parametros: auto(carrega o audio inteiro
+                ao carregar a pagina, normalmente prejudicial à pagina), metadata(carrega apenas
+                nome, duração e algumas coisas básicas), none(não carrega nada até que o usuario
+                interaja com o audio)-->
+
+                <!--Aqui se insere audios com várias extensões, para evitar problema na reprodução em
+                diferentes navegadores.-->
+                <source src="assets/audios/Silent-Night.mp3" type="audio/mpeg">
+                <p>Ocorreu um erro ao reproduzir o audio</p>
+            </audio>
+        </div>
+        <div>
+            <h1>Inserindo vídeos hospedados localmente</h1>
+            <p>Este video está hospedado no meu proprio servidor</p>
+            <video width="560" controls autoplay>
+                <!--Aqui se insere videos com várias extensoes, para evitar problema na reprodução em
+                diferentes navegadores.-->
+                <source src="assets/videos/12888892_1920_1080_30fps.mp4" type="video/mp4">
+                <p>Ocorreu um erro ao reproduzir o video</p>
+            </video>
+        </div>
+        <div>
+            <h1>Inserindo videos hospedados externamente</h1>
+            <p>Este video está hospedado no youtube</p>
+            <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/LW0bhKitRBk?si=hhLexO89szIAGggz"
+            title="YouTube video player" frameborder="0" allow="accelerometer;
+            autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;
+            web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+        </div>
+    </section>
+    <footer>
+        <p>GitHub: <a href="https://github.com/phcastello" target="_blank" id="github-link">phcastello</a></p>
+    </footer>
+    <script src="script.js" defer></script>
+</body>
+</html>
