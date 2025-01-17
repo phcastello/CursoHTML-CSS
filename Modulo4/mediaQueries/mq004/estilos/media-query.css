@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+/* Todas as demais mídias */
+
+/*
+Extra small devices (phones, 600px and down)
+@media only screen and (max-width: 600px) {...}
+
+Small devices (portrait tablets and large phones, 600px and up) 
+@media only screen and (min-width: 600px) {...}
+
+Medium devices (landscape tablets, 768px and up) 
+@media only screen and (min-width: 768px) {...}
+
+Large devices (laptops/desktops, 992px and up)
+@media only screen and (min-width: 992px) {...}
+
+Extra large devices (large laptops and desktops, 1200px and up) 
+@media only screen and (min-width: 1200px) {...} 
+*/
+
+
+@media only screen and (min-width: 768px){
+    body{
+        background-image: url('../../assets/imagens/back-tablet.jpg');
+    }
+    img#tablet{
+        display: block;
+    }
+    img#phone,img#print,img#pc,img#tv{
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 992px){
+    body{
+        background-image: url('../../assets/imagens/back-pc.jpg');
+    }
+    img#pc{
+        display: block;
+    }
+    img#phone,img#print,img#tablet,img#tv{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    body{
+        background-image: url('../../assets/imagens/back-tv.jpg');
+    }
+    img#tv{
+        display: block;
+    }
+    img#phone,img#print,img#pc,img#tablet{
+        display: none;
+    }
+} 
+
+@media print{
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    body{
+        background-image: url('../../assets/imagens/back-print.jpg'); /* desnecessário, pois em impressão ele não pega o fundo */
+        
+    }
+    main{
+        width: 90vw;
+        border: 2px solid black;
+    }
+    main::after{
+        content: 'Impressão feita pelo site criado por Pedro Castello.';
+        text-decoration: underline;
+    }
+
+
+    img#print{
+        display: block;
+    }
+    img#phone,img#tablet,img#pc,img#tv{
+        display: none;
+    }
+}

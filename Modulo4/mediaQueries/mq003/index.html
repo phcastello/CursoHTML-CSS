@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
+    <title>Media query 3</title>
+    <style>
+        /* Declarações Gerais */
+        @charset "UTF-8";
+
+        :root{
+            --fontePadrao: Arial, Helvetica, sans-serif;
+        }
+
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body{
+            width: 100vw;
+            height: 100vh;
+            background-color: #233eff;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        h1{
+            color: white;
+            text-shadow: 1px 1px 3px #0e1759;
+            padding: 10px;
+        }
+
+        /* Declarações Retrato */
+
+        @media screen and (orientation: portrait){
+            body{
+                background-image: url('../assets/imagens/cev-portrait.jpg');
+                background-position: center bottom;
+            }
+
+            h1::after{
+                content: " Retrato!";
+            }
+        }
+
+
+        /* Declarações Paisagem */
+
+        @media screen and (orientation: landscape){
+            body{
+                background-image: url('../assets/imagens/cev-landscape.jpg');
+                background-position: left bottom;
+            }
+
+            h1::after{
+                content: " Paisagem!";
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Mude a orientação do dispositivo!</h1>
+</body>
+</html>
