@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+/*
+Medium devices (landscape tablets, 768px and up) 
+@media only screen and (min-width: 768px) {...}
+
+Large devices (laptops/desktops, 992px and up)
+@media only screen and (min-width: 992px) {...}
+
+Extra large devices (large laptops and desktops, 1200px and up) 
+@media only screen and (min-width: 1200px) {...} 
+*/
+
+:root{
+    --fontePadrao: Arial, Helvetica, sans-serif;
+    --verde: #49a09d;
+    --lilas: #5f2c82;
+}
+
+/* Tablets */
+@media only screen and (min-width: 600px) {
+    body{
+        background-image: linear-gradient(0deg, var(--verde), var(--lilas));
+    }
+
+    section#login{
+        width: 90vw;
+        height: 240px;
+    }
+
+    div#image{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    div#form{
+        width: 70%;
+        float: right;
+    }
+
+    div#form > p{
+        font-size: 1em;
+    }
+
+    div#form > h1{
+        font-size: 1.2em;
+    }
+
+}
+
+/* Computadores */
+@media only screen and (min-width: 992px) {
+    section#login{
+        width: 80vw;
+        height: 240px;
+    }
+
+    div#image{
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+    div#form{
+        float: left;
+        width: 50%;
+    }
+
+    div#form > p{
+        font-size: 0.8em;
+    }
+
+    div#form > h1{
+        font-size: 1.5em;
+        font-weight: bolder;
+    }
+
+}
+
