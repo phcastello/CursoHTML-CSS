@@ -27,6 +27,10 @@
   <a href="https://phcastello.github.io/CursoHTML-CSS/Modulo5/Flexbox/menuFlexbox/index.html" target="_blank">Desafio Menu com Flexbox</a><br>
   Resolvi o implementar fazendo um menu hamburger de verdade usando js e animações em css.
 </p>
+<p>
+  <a href="https://phcastello.github.io/CursoHTML-CSS/Modulo5/Flexbox/menuFlexbox2/index.html" target="_blank">Desafio Menu com Flexbox alterado</a><br>
+  Resolvi o implementar ainda mais nessa versão, simulando menus da vida real que não há um botão para fechar a tela e o menu tem um scroll interno.
+</p>
 
 
 
