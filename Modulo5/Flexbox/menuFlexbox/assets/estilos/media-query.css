@@ -25,6 +25,7 @@
         margin: 0 5px;
         width: auto;
         transition: color 0.3s, background-color 0.3s;
+        box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.438);
     }
 
     nav a:hover {
