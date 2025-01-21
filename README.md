@@ -21,3 +21,14 @@
 <p>
   <a href="https://phcastello.github.io/CursoHTML-CSS/Modulo4/DesafioTelaLogin/index.html" target="_blank">Desafio Pagina de Login</a>
 </p>
+
+<h1>Desafios do <strong>Modulo 5</strong> do Curso de HTML5 e CSS3</h1>
+<p>
+  <a href="https://phcastello.github.io/CursoHTML-CSS/Modulo5/Flexbox/menuFlexbox/index.html" target="_blank">Desafio Menu com Flexbox</a><br>
+  Resolvi o implementar fazendo um menu hamburger de verdade usando js e animações em css.
+</p>
+
+
+
+<h2><a href="https://mail.google.com/mail/?view=cm&fs=1&to=pedrocastello@gmail.com&su=Sujestoes%20para%20Pedro%20Castello">Sujestões são bem-vindas sempre!</a>
+</h2>
