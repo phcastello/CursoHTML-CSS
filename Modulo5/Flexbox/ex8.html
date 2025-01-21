@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <title>Flexbox 8</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div.container {
+            display: flex;
+            background-color: gray;
+            flex-flow: row nowrap;
+            justify-content: center;
+        }
+
+        div.item {
+            border: 1px solid black;
+            text-align: center;
+            background-color: #87cefa;
+            flex: 1 1 150px;
+        }
+        div#meio{
+            flex-grow: 0;
+            flex-shrink: 0;
+            align-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <title>Flexbox 1</title>
+    <style>
+        div.container {
+            display: flex;
+            background-color: gray;
+            flex-flow: row wrap;
+        }
+
+        div.item {
+            padding: 10px;
+            border: 1px solid black;
+            text-align: center;
+            background-color: lightskyblue;
+            margin-top: -1px; /* Faz as bordas se sobreporem */
+            flex: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">AAAAAAAAAAAAAAAAAAAA</div>
+        <div class="item">BBBBBBBBBBBBBBBBBBBB</div>
+        <div class="item">CCCCCCCCCCCCCCCCCCCC</div>
+        <div class="item">DDDDDDDDDDDDDDDDDDDD</div>
+        <div class="item">EEEEEEEEEEEEEEEEEEEE</div>
+        <div class="item">FFFFFFFFFFFFFFFFFFFF</div>
+        <div class="item">GGGGGGGGGGGGGGGGGGGG</div>
+    </div>
+</body>
+</html>

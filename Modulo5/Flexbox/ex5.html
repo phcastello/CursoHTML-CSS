@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <title>Flexbox 5</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        div.container {
+            width: 100vw;
+            height: 100vh;
+            background-color: gray;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: flex-start;
+        }
+
+        div.item {
+            background-color: lightskyblue;
+            border: 1px solid black;
+            text-align: center;
+            padding: 40px
+        }
+
+        div#i1{
+            align-self: auto;
+        }
+        div#i2{
+            align-self: flex-start;
+        }
+        div#i3{
+            align-self: flex-end;
+        }
+        div#i4{
+            align-self: center;
+        }
+        div#i5{
+            align-self: stretch;
+        }
+        div#i6{
+            align-self: center;
+        }
+        div#i7{
+            align-self: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="i1">A</div>
+        <div class="item" id="i2">B</div>
+        <div class="item" id="i3">C</div>
+        <div class="item" id="i4">D</div>
+        <div class="item" id="i5">E</div>
+        <div class="item" id="i6">F</div>
+        <div class="item" id="i7">G</div>
+    </div>
+</body>
+</html>

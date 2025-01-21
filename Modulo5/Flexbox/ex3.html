@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <title>Flexbox 3</title>
+    <style>
+        /* 
+        --verde: #49a09d;
+        --lilas: #5f2c82; 
+        */
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #5f2c82;
+            height: 97vh;
+        }
+
+        main{
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        section{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: column nowrap;
+            background-color: white;
+            border-radius: 10px;
+            width: 300px;
+            height: 500px;
+            
+        }
+
+        section h1{
+            text-align: center;
+        }
+
+        form{
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        div.campo{
+            padding: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Login</h1>
+            <form action="login.php">
+                <div class="campo"><label for="iemail"><input type="email" name="email" id="iemail" required></label></div>
+                <div class="campo"><label for="ipasswd"><input type="password" name="passwd" id="ipasswd" required></label></div>
+                <div class="campo"><input type="submit" value="Entrar"></div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
