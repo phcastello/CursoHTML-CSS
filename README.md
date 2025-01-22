@@ -34,5 +34,8 @@
 
 
 
-<h2><a href="https://mail.google.com/mail/?view=cm&fs=1&to=contato.pedrocastello@gmail.com&su=Sujestoes%20para%20Pedro%20Castello" target="_blank">Sujestões são bem-vindas sempre!</a>
+<h2>
+  <a href="#" onclick="window.open('https://mail.google.com/mail/?view=cm&fs=1&to=pedrocastello@gmail.com&su=Sujestoes%20para%20Pedro%20Castello', '_blank'); return false;">
+    Sujestões são bem-vindas sempre!
+  </a>
 </h2>
