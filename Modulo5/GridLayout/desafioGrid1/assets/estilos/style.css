@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    gap: 5px;
+    grid-template-areas: 
+        "header"
+        "main"
+        "aside1"
+        "sidebar"
+        "aside2"
+        "footer"
+    ;
+
+    grid-template-columns: 1fr;
+    height: 100vh;
+    margin: 0 auto;
+    
+
+    @media screen and (min-width: 768px) {
+        grid-template-columns: 1fr repeat(4, minmax(auto, 200px)) 1fr;
+        grid-template-rows: .5fr 2fr .5fr .5fr;
+        grid-template-areas: 
+            "header header header header header header"
+            ".      main   main   main   sidebar .    "
+            ".      aside1 aside1 aside2 aside2  .    "
+            "footer footer footer footer footer footer"
+        ;
+    }
+    
+}
+
+p{
+    text-align: left;
+    text-indent: 30px;
+}
+
+header{
+    grid-area: header;
+    background-color: skyblue;
+}
+
+header nav{
+    padding: 10px;
+}
+
+header a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgb(43, 180, 235);
+    transition: background-color 0.3s ease-in-out;
+}
+
+header a:hover {
+    background-color: aqua;
+}
+
+
+main{
+    grid-area: main;
+    padding: 10px;
+    background-color: coral;
+}
+
+
+section{
+    padding: 10px;
+    grid-area: sidebar;
+    background-color: royalblue;
+}
+
+aside#aside1{
+    grid-area: aside1;
+    background-color: indigo;
+    padding: 10px;
+}
+
+aside#aside2{
+    grid-area: aside2;
+    background-color: indigo;
+    padding: 10px;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    grid-area: footer;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+
+    transition: opacity 0.3s ease;
+}
+
+footer p{
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+footer a::before{
+    content: '⇒';
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+footer a::after{
+    content: '⇐';
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+footer a:hover::before, footer a:hover:after, footer a:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
+
+
+

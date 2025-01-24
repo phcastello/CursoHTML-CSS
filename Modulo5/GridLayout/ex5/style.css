@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* "span n" calcula n espaços que aquela célula irá ocupar. Exemplo: grid-row 2/ span 4 significa que a celula comecará na coluna 2 e ocupara 4 espaços na horizontal. */
+/* -1 em grid-column ou grid-row garante que ele vá ate o final, independente de quantas colunas tenham. */
+
+.wrapper{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: [site-start] 1fr [content-start] repeat(4, 1fr) [site-end];
+    grid-template-rows: [site-top] 100px [content-top] 100px [content-bottom] 100px [site-bottom] ;
+}
+
+header, footer{
+    grid-column: site;
+}
+
+main{
+    grid-column-start: content;
+}
+
+aside{
+    grid-column: site-start / content-start;
+    grid-row: content-top / content-bottom;
+}
+
+.wrapper > *{
+    background-color: royalblue;
+    padding: 10px;
+    border: 3px dashed rgb(255, 0, 0);
+}
+
+.wrapper > *:nth-child(even){
+    background-color: skyblue;
+}
+
+
+/* footer{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    font-size: clamp(0.8rem, 2vw, 1rem);
+    background-color: rgb(80, 80, 80);
+    color: white;
+}
+
+footer p{
+    text-align: center;
+    color: white;
+}
+
+footer a{
+    padding: 0px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.37);
+    transition: opacity 0.3s ease;
+}
+
+footer a::before, footer a::after{
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+footer a::before{
+    content: '⇒';
+}
+
+footer a::after{
+    content: '⇐';
+}
+
+footer a:hover::before, footer a:hover::after{
+    opacity: 1;
+} */
