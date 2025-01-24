@@ -32,6 +32,10 @@
   Resolvi o implementar ainda mais nessa versão, simulando menus da vida real que não há um botão para fechar a tela e o menu tem um scroll interno.
 </p>
 
+<p>
+  <a href="https://phcastello.github.io/CursoHTML-CSS/Modulo5/GridLayout/desafioGrid1/index.html" target="_blank">Desafio Template Site CSS Grid/Grid layout</a>
+</p>
+
 
 
 <h2>
