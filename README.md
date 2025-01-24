@@ -33,7 +33,8 @@
 </p>
 
 <p>
-  <a href="https://phcastello.github.io/CursoHTML-CSS/Modulo5/GridLayout/desafioGrid1/index.html" target="_blank">Desafio Template Site CSS Grid/Grid layout</a>
+  <a href="https://phcastello.github.io/CursoHTML-CSS/Modulo5/GridLayout/desafioGrid1/index.html" target="_blank">Desafio Template Site CSS Grid/Grid layout</a><br>
+  Não quis implementar muito esse, não achei necessario.
 </p>
 
 
