@@ -94,7 +94,7 @@ body{
     transition: opacity 0.3s ease;
 }
 
-u-footer-link::after{
+.u-footer-link::after{
     content: '⇐';
     opacity: 0;
     transition: opacity 0.3s ease;
