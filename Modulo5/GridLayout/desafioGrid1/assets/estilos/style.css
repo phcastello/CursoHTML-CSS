@@ -22,19 +22,6 @@ body{
     grid-template-columns: 1fr;
     height: 100vh;
     margin: 0 auto;
-    
-
-    @media screen and (min-width: 768px) {
-        grid-template-columns: 1fr repeat(4, minmax(auto, 200px)) 1fr;
-        grid-template-rows: .5fr 2fr .5fr .5fr;
-        grid-template-areas: 
-            "header header header header header header"
-            ".      main   main   main   sidebar .    "
-            ".      aside1 aside1 aside2 aside2  .    "
-            "footer footer footer footer footer footer"
-        ;
-    }
-    
 }
 
 p{
