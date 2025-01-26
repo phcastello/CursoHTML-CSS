@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    .l-wrapper{
+        display: grid;
+        grid-auto-rows: 1fr;
+        grid-template-columns: [full-start] 1fr [container-start] repeat(6, 1fr) [container-end] 1fr [full-end];
+        height: 100vh;
+    }
+    .l-wrapper > *{
+        grid-column: container;
+    }
+
+    .l-highlights{
+        grid-template-columns: repeat(6, 1fr);
+        grid-auto-rows: 150px;
+    }
+}
