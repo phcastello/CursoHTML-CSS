@@ -33,8 +33,9 @@
 </p>
 
 <p>
-  <a href="https://phcastello.github.io/CursoHTML-CSS/Modulo5/GridLayout/desafioGrid1/index.html" target="_blank">Desafio Template Site CSS Grid/Grid layout</a><br>
-  Não quis implementar muito esse, não achei necessario.
+  <a href="https://phcastello.github.io/CursoHTML-CSS/Modulo5/GridLayout/desafioGrid1/index.html" target="_blank">Desafio Template Grid 1</a><br>
+  <a href="https://phcastello.github.io/CursoHTML-CSS/Modulo5/GridLayout/desafioGrid2/index.html" target="_blank">Desafio Template Grid 2</a><br>
+  Não quis implementar muito esses, não achei necessario.
 </p>
 
 
