@@ -35,13 +35,15 @@
 <p>
   <a href="https://phcastello.github.io/CursoHTML-CSS/Modulo5/GridLayout/desafioGrid1/index.html" target="_blank">Desafio Template Grid 1</a><br>
   <a href="https://phcastello.github.io/CursoHTML-CSS/Modulo5/GridLayout/desafioGrid2/index.html" target="_blank">Desafio Template Grid 2</a><br>
+  <a href="https://phcastello.github.io/CursoHTML-CSS/Modulo5/GridLayout/desafioGrid3/index.html"
+  target="_blank">Desafio Template Grid 3</a><br>
   Não quis implementar muito esses, não achei necessario.
 </p>
 
 
 
 <h2>
-  <a href="#" onclick="window.open('https://mail.google.com/mail/?view=cm&fs=1&to=pedrocastello@gmail.com&su=Sujestoes%20para%20Pedro%20Castello', '_blank'); return false;">
+  <a href="#" onclick="window.open('https://mail.google.com/mail/?view=cm&fs=1&to=contato.pedrocastello@gmail.com&su=Sujestoes%20para%20Pedro%20Castello', '_blank'); return false;">
     Sujestões são bem-vindas sempre!
   </a>
 </h2>
