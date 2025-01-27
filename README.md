@@ -1,6 +1,7 @@
 <h1><a href="https://phcastello.github.io">Voltar à pagina inicial</a></h1>
 <br>
 <h1>Todos os sites de exemplo e desafios, por mais que peculiares, tem a forma na qual foram desenhados para ter!</h1>
+<p>Espaços vazios, tags estranhas e etc são propositais e tiveram o intuito de aprendizado :)</p>
 <h1>Desafios do <strong>Modulo 1</strong> do Curso de HTML5 e CSS3</h1>
 <p>
   <a href="https://phcastello.github.io/CursoHTML-CSS/Modulo1/Desafio1/index.html" target="_blank">Desafio</a>
