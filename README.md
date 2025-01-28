@@ -45,6 +45,6 @@
 
 <h2>
   <h3>
-    <a href="#" onclick="window.open('https://mail.google.com/mail/?view=cm&fs=1&to=contato.pedrocastello@gmail.com&su=Sujestoes%20para%20Pedro%20Castello', '_blank'); return false;">Sugestões são sempre bem-vindas!</a>
+    <a href="#" onclick="window.open('https://mail.google.com/mail/?view=cm&fs=1&to=contato.pedrocastello@gmail.com&su=Sugestões%20para%20Pedro%20Castello', '_blank'); return false;">Sugestões são sempre bem-vindas!</a>
   </h3>
 </h2>
