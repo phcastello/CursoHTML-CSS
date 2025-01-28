@@ -44,7 +44,7 @@
 </p>
 
 <h2>
-  <h3><a href="#" onclick="window.open('https://mail.google.com/mail/?view=cm&fs=1&to=contato.pedrocastello@gmail.com&su=Sujestoes%20para%20Pedro%20Castello', '_blank'); return false;"></a></h3>
+  <h3><a href="#" onclick="window.open('https://mail.google.com/mail/?view=cm&fs=1&to=contato.pedrocastello@gmail.com&su=Sujestoes%20para%20Pedro%20Castello', '_blank'); return false;"></h3>
     Sugestões são sempre bem-vindas!
   </a>
 </h2>
